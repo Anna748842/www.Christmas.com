@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    background-image: url("ui.png") no-repeat center center/cover;
+    background: url("ui.png") no-repeat center center/cover;
+}
+
+/* Dark overlay for readability */
+.overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form box */
+.form-box {
+    background-color: rgba(225, 29, 137, 0.85);
+    padding: 25px;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Heading */
+.form-box h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 40px
+}
+
+/* Inputs */
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Textarea */
+.form-box textarea {
+    resize: none;
+    height: 80px;
+    font-weight: 900;
+}
+
+/* Button */
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2f7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.form-box button:hover {
+    background-color: #256628;
+}
+
+/* Output text */
+#output {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+.output-box {
+    background: rgba(225, 29, 137, 0.85);
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+.box2 {
+      background: rgba(255, 255, 255, 0.85);
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+.Lastbox {
+      /* background: rgba(255, 255, 255, 0.85); */
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1px;
+    margin-top: 150px;
+    padding: 30px;
+    text-align: end;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.quote {
+    /* font-style: italic; */
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 25px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#showName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* Santa image styling */
+.santa-image {
+    width: 180px;
+    max-width: 50%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+    background-color: rgb(14, 123, 177);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+#showWish {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}

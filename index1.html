@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Christmas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="output-box">
+    <h1>🎉🥳🎄 Merry Christmas 🎄🥳🎉</h1>
+    <hr>
+    <hr>
+    <img src="santa.png" alt="Santa Claus" class="santa-image">
+    <h2><span id="showName"></span></h2>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    </div>
+    <div class="box2">
+    <p class="quote">
+        ✨"May the magic of Christmas find the wish of
+        <b id="showWish"></b>
+        that is hidden in the quietest corners of your heart.
+        No one deserves to see their dreams come true more than you.
+        Wishing you a season of true miracles."
+        <br>
+        <br>
+        ✨​"May this Christmas bridge the gap between your heart’s desire and your reality. Wishing you the kind of happiness that makes you realize why you had to wait."
+    </p>
+</div>
+<div class="Lastbox">
+    <p>~Created by Anand Kumar Das_1o9😉❤️</p>
+</div>
+
+
+
+<script>
+    document.getElementById("showName").innerText =
+        localStorage.getItem("userName");
+
+    document.getElementById("showWish").innerText =
+        localStorage.getItem("userWish");
+</script>
+
+</body>
+</html>
